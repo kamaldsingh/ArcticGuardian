@@ -1,0 +1,9 @@
+pandas
+numpy
+transformers
+torch
+nltk
+wordcloud
+pandas_datareader
+yfinance
+finvizfinance
