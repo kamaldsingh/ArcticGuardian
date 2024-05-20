@@ -102,7 +102,7 @@ def optimize_portfolio(max_stocks, MarketCap, ESGRisk):
 
 max_stocks = st.selectbox('Max Stocks', [5, 10, 100], index = 0)
 MarketCap = st.selectbox('Market Cap', [True, False], index=1)
-ESGRisk = st.selectbox('ESG Risk', [True, False], index=0)
+ESGRisk = st.selectbox('Climate Risk', [True, False], index=0)
 
 if st.button('Optimize'):
     result = optimize_portfolio(max_stocks, MarketCap, ESGRisk)
